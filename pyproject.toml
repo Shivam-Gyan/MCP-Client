@@ -10,4 +10,5 @@ dependencies = [
     "langchain-core>=1.2.7",
     "langchain-mcp-adapters>=0.2.1",
     "langchain-ollama>=1.0.1",
+    "streamlit>=1.53.1",
 ]

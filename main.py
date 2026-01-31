@@ -10,7 +10,7 @@ async def main():
     client = MultiServerMCPClient(SERVERS)
     tools = await client.get_tools()
 
-    print("Available tools:", [t.name for t in tools])
+    # print("Available tools:", [t.name for t in tools])
 
     # ---- LOAD CATEGORIES RESOURCE ----
     resources = await client.get_resources()
